@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { from } from 'rxjs';
 import { ComposeComponent } from './compose/compose.component';
 import { MailComponent } from './mail/mail.component';
 import { SendmailComponent } from './sendmail/sendmail.component';
