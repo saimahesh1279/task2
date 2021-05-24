@@ -1,24 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule ,routingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComposemailComponent } from './composemail/composemail.component';
-import { ComposeMailComponent } from './compose-mail/compose-mail.component';
-import { MailBoxComponent } from './mail-box/mail-box.component';
-import { SendMailComponent } from './send-mail/send-mail.component';
+import { SendmailComponent } from './sendmail/sendmail.component';
+import { ComposeComponent } from './compose/compose.component';
+import { MailComponent } from './mail/mail.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComposemailComponent,
-    ComposeMailComponent,
-    MailBoxComponent,
-    SendMailComponent
+    SendmailComponent,
+    ComposeComponent,
+    MailComponent,
+   
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    routingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
