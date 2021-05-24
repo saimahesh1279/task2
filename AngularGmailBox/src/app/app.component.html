@@ -1,3 +1,90 @@
-<router-outlet>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<title>Gmail</title>
+<div class="body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="leftcont">
+                    <button style=" background-color: hsl(167deg 100% 37%);; width: 80%;padding-right: 10px;padding-right: 10px;margin: 20px 0 0 20px;" type="button" class="btn btn-comp"> <a style="text-decoration: none;color: whitesmoke;" routerLink="/compose">ComposeMail</a></button>
+                    <br>
+                    <br>
+                    <div class="folders">
+                        <ul>
+                            <p id="Folders">FOLDERS</p>
 
-</router-outlet>
+                            <a class="fold-in" routerLink="/home"><button type="button" class="btn"><span class="glyphicon glyphicon-inbox"></span>
+                                    &nbsp;&nbsp;&nbsp;Inbox
+                                </button>
+                            </a><br>
+
+                            <a class="fold-in" routerLink="/sendmail"><button type="button" class="btn"  ><span
+                                        class="glyphicon glyphicon-envelope">&nbsp;</span>
+                                    Send Mail</button>
+                                
+                                </a><br>
+                            <a class="fold-in"><button type="button" class="btn"  routerLink="/Composemail"><span
+                                        class="glyphicon glyphicon-certificate">&nbsp;</span>Important</button> 
+                                        
+                                
+                                </a><br>
+                            <a class="fold-in"><button type="button" class="btn">
+                            <span class="glyphicon glyphicon-file">&nbsp;</span>Draft</button><br>
+                                </a>
+                            <a class="fold-in"><button type="button" class="btn"><span
+                                        class="glyphicon glyphicon-trash">&nbsp;</span> Trash</button> 
+                            </a>
+                        </ul>
+                    </div>
+
+                    <br>
+                    <p id="categories">CATEGARIES</p>
+                    <div class="categories">
+                        <li>
+                            <div id="green"></div><a class="catigory">Work</a>
+
+                        </li>
+
+                        <li>
+                            <div id="red"></div><a class="catigory">Document</a>
+                        </li>
+                        <li>
+                            <div id="brown"></div> <a class="catigory">Social</a>
+                        </li>
+
+                        <li>
+                            <div id="blue"></div><a class="catigory">Advertising</a>
+                        </li>
+
+                        <li>
+                            <div id="yellow"></div> <a class="catigory">Clients</a>
+                        </li>
+
+                    </div>
+                    <div class="labels">
+                        <p id="labels">LABELS</p>
+                        <ul>
+
+
+                            <p><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Family </button>
+                                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Work </button>
+                                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Home </button> </p>
+                            <p><button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Children </button>
+                                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Holidays </button> </p>
+                            <p> <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Music </button>
+                                <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-tag"></span>
+                                    Photography </button> </p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <router-outlet>
+            </router-outlet>

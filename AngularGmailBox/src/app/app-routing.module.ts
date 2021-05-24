@@ -16,4 +16,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingModule=[]
+export const routingModule=[MailComponent,ComposeComponent,SendmailComponent]

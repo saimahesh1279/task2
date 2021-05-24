@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-sendmail',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SendmailComponent implements OnInit {
 
-  constructor() { }
+  data: any = []
 
-  ngOnInit(): void {
+
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute
+  ) {
+
   }
 
+  ngOnInit(): void {
+    this.route.queryParams.subscribe((params) => {
+      // console.log(params.info);
+      this.data = JSON.parse(params.info);
+      console.log(this.data);
+
+    })
+  }
 }
