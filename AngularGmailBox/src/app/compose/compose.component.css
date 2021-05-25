@@ -8,9 +8,6 @@ body {
     background-color: #f3f3f4;
 }
 
-
-
-
 .catigory {
     padding-left: 10px;
 }
@@ -18,9 +15,6 @@ body {
 .btn {
     color: hsl(57deg 7% 50%);
 }
-
-
-
 
 .main {
     margin-top: 2%;
@@ -41,18 +35,17 @@ body {
     opacity: 0.6;
 }
 
-.message{
-    height: 28%; 
-    width: 100%; 
-    border-bottom:1px solid #e7eaec; 
+.message {
+    height: 28%;
+    width: 100%;
+    border-bottom: 1px solid #e7eaec;
 }
 
-.space{
+.space {
     background-color: #f3f3f4;
-    height: 20px;  
+    height: 20px;
     width: 100%;
     border: 1px solid gray;
-   
 }
 
 #textarea {
@@ -116,10 +109,11 @@ body {
 
 .mail-body {
     padding-left: 5px;
-    margin-top: 7%;
+    margin-top: 5%;
     left: 2%;
+    margin-right: 2%;
     color: #7c7a7a;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tool {
@@ -182,4 +176,3 @@ body {
     color: white;
     font-size: medium;
 }
-
