@@ -7,6 +7,22 @@
     background-color: #f3f3f4;
 }
 
+
+.comp{
+    text-decoration: none;color: white ;
+    font-size: 18px;
+}
+
+#comp{
+   
+    background-color: #00bf96;
+     width: 100%;
+     padding-right: 10px;
+     padding-left: 0%;
+     margin: 20px 0 0 20px;  
+}
+
+
 .LeftContainer {
     background-color: transparent;
     margin-top: 10%;
@@ -27,22 +43,24 @@
 #categories {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: 12px;
-    margin-top: 1px;
-    margin-left: 5%;
-    margin-bottom: 1px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 8%;
+  
     color: black;
 }
 
 .catigory {
+
     padding-left: 10px;
 }
 
 .categories {
     font-family: 'open Sans', sans-serif;
     list-style: none;
-    font-size: 12px;
-    margin-left: 5%;
+    font-size: 14px;
+    margin-left: 8%;
+    
     color: black;
 }
 
@@ -62,23 +80,30 @@
 #labels {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 8%;
+    margin-bottom: 10px;
     color: black;
 }
+
+.lables{
+    margin-bottom: 10px;
+}
+
+
 
 .labels ul {
     font-family: 'Open Sans', sans-serif;
     margin-left: 0%;
+    margin-left: 2%;
     text-decoration: none;
 }
 
 .column {
     display: inline;
     font-family: 'open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -92,11 +117,13 @@
 }
 
 .btn-sm {
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 20px;
     margin-top: 10px;
+    border-bottom:1px solid black ;
+    border: 1px solid #e7eaec;
 }
 
 .col {
@@ -117,20 +144,34 @@
     color: rgb(127, 129, 128);
 }
 
-.fold-in {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 12px;
-    padding-right: 300px;
-    border-bottom: 1px solid #e7eaec;
+.fold-in{
+    
+    background-color:#f3f3f4;
+    font-size: 14px;
+    border-bottom: 1px solid hsl(204deg 12% 92%);
     text-decoration: none;
-}
+    margin-left: 8%;
+    opacity: 1;
+    font-family: 'open Sans', sans-serif;
+    }
+    
+    .button1{
+        color: black;
+        border: none;
+        font-size: 14px;
+        background-color: transparent;
+        margin-bottom:5px;
+        margin-top: 10px;
+       
+    }
 
 .main {
     padding-bottom: 50px;
     border-bottom: 1px solid #e7eaec;
 }
-
+.btn{
+    border-bottom: #e7eaec;
+   }
 .column {
     height: 10px;
     width: 10px;
@@ -154,10 +195,12 @@
     color: black
 }
 
-#Folders {
-    font-size: 12px;
+.folders p {
+    font-weight: bold;
+    font-size: 14px;
+    font-family:'open Sans', sans-serif ;
     color: black;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-bottom: 10px;
     text-decoration: none;
 }

@@ -8,33 +8,26 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="leftcont">
-                    <button style=" background-color: hsl(167deg 100% 37%);; width: 80%;padding-right: 10px;padding-right: 10px;margin: 20px 0 0 20px;" type="button" class="btn btn-comp"> <a style="text-decoration: none;color: whitesmoke;" routerLink="/compose">ComposeMail</a></button>
+                    <button id="comp" type="button" style="padding-right: 100px; border-bottom: 1px solid #e7eaec; padding-left: 100px;" class="btn btn-comp"> <a class="comp" routerLink="/compose">Compose Mail</a></button>
                     <br>
                     <br>
                     <div class="folders">
-                        <ul>
-                            <p id="Folders">FOLDERS</p>
-
-                            <a class="fold-in" routerLink="/home"><button type="button" class="btn"><span class="glyphicon glyphicon-inbox"></span>
+                        <ul><p>FOLDERS</p>
+                          
+                            <a class="fold-in" routerLink="/mail"><button type="button" class="button1"  ><span class="glyphicon glyphicon-inbox"></span>
                                     &nbsp;&nbsp;&nbsp;Inbox
-                                </button>
-                            </a><br>
-
-                            <a class="fold-in" routerLink="/sendmail"><button type="button" class="btn"  ><span
+                                </button><span style="background-color:orange; float: right; margin-top: 10px;" class="badge">20</span> </a><br>
+                            <a href="send.html" class="fold-in" routerLink="/sendmail"><button class="button1"  style="color: black;border: none;" type="button" ><span
                                         class="glyphicon glyphicon-envelope">&nbsp;</span>
-                                    Send Mail</button>
-                                
-                                </a><br>
-                            <a class="fold-in"><button type="button" class="btn"  routerLink="/Composemail"><span
-                                        class="glyphicon glyphicon-certificate">&nbsp;</span>Important</button> 
-                                        
-                                
-                                </a><br>
-                            <a class="fold-in"><button type="button" class="btn">
-                            <span class="glyphicon glyphicon-file">&nbsp;</span>Draft</button><br>
-                                </a>
-                            <a class="fold-in"><button type="button" class="btn"><span
-                                        class="glyphicon glyphicon-trash">&nbsp;</span> Trash</button> 
+                                    Send Mail</button> <span class="bade"> </span></a><br>
+                            <a class="fold-in"><button class="button1"  type="button" ><span
+                                        class="glyphicon glyphicon-certificate">&nbsp;</span>Important</button> <span
+                                    class="bade"></span></a><br>
+                            <a class="fold-in"><button class="button1"  type="button" ><span
+                                        class="glyphicon glyphicon-file">&nbsp;</span>
+                                    Draft</button><span style="background-color:tomato;float: right; margin-top: 10px;" class="badge">6</span> </a><br>
+                            <a class="fold-in"><button class="button1" type="button" ><span
+                                        class="glyphicon glyphicon-trash">&nbsp;</span> Trash</button> <span class="bade"></span>
                             </a>
                         </ul>
                     </div>
@@ -84,7 +77,12 @@
                                     Photography </button> </p>
                         </ul>
                     </div>
+                    <br><br>
+                        <br>
+                    
                 </div>
             </div>
+
+            
             <router-outlet>
             </router-outlet>

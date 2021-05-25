@@ -18,9 +18,9 @@
 
 .btn-sm {
     font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
     margin-top: 10px;
 }
 
@@ -57,6 +57,7 @@
     background-color: white;
     height: 100%;
     width: 72%;
+    margin-left: 1%;
 }
 
 .head-inb {
